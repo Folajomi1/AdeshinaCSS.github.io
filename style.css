@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background-color: #1f2937;
+  color: white;
+  margin: 20px 100px 10px 100px;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 120px 0 120px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  padding: 0 20px 0 20px;
+}
+.header-info {
+  display: flex;
+  padding: 90px 120px 90px 120px;
+  justify-content: space-between;
+}
+.info-text .main-text {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+.info-text .secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.info-text button {
+  background-color: #3882f6;
+  color: white;
+  width: 85px;
+  padding: 5px;
+  border: #3882f6;
+  border-radius: 5px;
+  margin: 20px 0 0 0;
+}
+.info-text button:hover {
+  background-color: #4e89e9;
+}
+.random-info h1 {
+  text-align: center;
+  margin-top: 80px;
+}
+.info img {
+  border: none;
+  border-radius: 15px;
+}
+.info {
+  margin: 40px;
+}
+.info p {
+  text-align: center;
+}
+.info-images {
+  display: flex;
+  justify-content: center;
+}
+.quote {
+  text-align: center;
+  background-color: #e5e7eb;
+  margin: 40px 100px 40px 100px;
+  padding: 50px;
+}
+.quote p {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+}
+.quote-sign {
+  text-align: right;
+}
